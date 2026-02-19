@@ -9,7 +9,7 @@ export default function HomePage() {
     <div>
       <div>
         <Button
-          className={`${styles.Button} ${styles["button-lg"]}`}
+          className={`${styles.button} ${styles["button-lg"]}`}
           onClick={() => router.navigate("startGame")}
         >
           Начать игру
